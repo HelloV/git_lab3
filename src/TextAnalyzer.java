@@ -59,14 +59,10 @@ public class TextAnalyzer {
                     }
                 }
             }
-            System.out.println("Общий рейтинг текста: " + ratioWords);
+            System.out.println("RatingText: " + ratioWords);
             in.close();
         } catch(IOException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    private void analyzeString(String sourceString) {
-
     }
 }
