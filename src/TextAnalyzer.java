@@ -59,7 +59,7 @@ public class TextAnalyzer {
                     }
                 }
             }
-            System.out.println(ratioWords);
+            System.out.println("Общий рейтинг текста: " + ratioWords);
             in.close();
         } catch(IOException e) {
             throw new RuntimeException(e);
