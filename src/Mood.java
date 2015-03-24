@@ -6,7 +6,7 @@ public class Mood {
 
 
     Mood() {
-        this.title = "Настроение_не_задано";
+        this.title = "unset";
     }
 
     Mood(String title) {

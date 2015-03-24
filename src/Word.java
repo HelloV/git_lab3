@@ -9,7 +9,7 @@ public class Word {
 
 
     Word() {
-        this.spelling = "Слово_не_задано";
+        this.spelling = "unset";
         this.mood = new Mood();
         this.ratio = 0;
     }
